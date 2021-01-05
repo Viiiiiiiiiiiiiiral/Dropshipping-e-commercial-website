@@ -77,12 +77,18 @@ WSGI_APPLICATION = 'Ecom.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ecom_drop',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '123456',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'project',
+        'USER': 'postgres',
+        'PASSWORD': 'vinhviral',
+        'HOST': 'localhost',
+        'PORT': '5432',
+        #'ENGINE': 'django.db.backends.mysql',
+        #'NAME': 'ecom_drop',
+        #'HOST': '127.0.0.1',
+        #'PORT': '3306',
+        #'USER': 'root',
+        #'PASSWORD': '123456',
     }
 }
 
